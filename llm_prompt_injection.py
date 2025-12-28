@@ -70,4 +70,10 @@ def handle_user_message(user_input: str):
 
 
 if __name__ == "__main__":
-    print(handle_user_message(input("Ask you question\n>")))
+    print("Welcome to chat bot,. enter exit or quit to close the chat")
+    while True:
+        user_request = input("Ask you question\n>").strip()
+        if str.lower(user_request) == "exit" or str.lower(user_request) == "quit":
+            print("ending the chat...")
+            break
+        print(handle_user_message(user_request))

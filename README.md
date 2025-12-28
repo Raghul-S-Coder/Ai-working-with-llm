@@ -150,4 +150,3 @@ Feel free to open a pull request or issue.
 
 **Happy Coding & Stay Secure with LLMs!** 🚀
 
-```
